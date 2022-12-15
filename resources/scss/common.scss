@@ -1,0 +1,92 @@
+$box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+$light-gray: #cecece;
+a{
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+    &:hover{
+        color: #0a58ca;
+    }
+}
+.bgwhite{
+    background-color: white;
+}
+input{
+  border: 1px solid black;
+  outline: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.bottomBtn{
+  padding: 10px;
+}
+.box-shadow{
+    box-shadow: $box-shadow;
+}
+.bdr{
+    border: 1px solid $light-gray;
+}
+.bdr-bottom{
+    border-bottom: 1px solid $light-gray;
+}
+.bdr-radius{
+    border-radius: 7px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.w100{
+    width: 100%;
+}
+.p-10{
+    padding: 10px;
+}
+.p20{
+    padding: 0 20px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gg10{
+    grid-gap: 10px;
+}
+.flex-btw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.df{
+    display: flex;
+}
+.mh40{
+    min-height: 40px;
+    min-width: 40px;
+}

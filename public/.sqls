@@ -1,0 +1,19 @@
+[2022-02-05 10:17:30]select * from `users` where `id` = ? limit 1
+parmars:[77]
+
+[2022-02-05 10:17:30]select * from `users` where `id` = ? limit 1
+parmars:[77]
+
+[2022-02-05 10:17:30]select * from `users` where `id` = ? limit 1
+parmars:[77]
+
+[2022-02-05 10:17:30]select * from `users` where `users`.`id` = ? limit 1
+parmars:[77]
+
+[2022-02-05 10:17:30]SELECT rooms.id, rooms.name, have_no_read, messages.message FROM rooms LEFT JOIN (SELECT room_id, max(id) as id, sum(case WHEN have_read NOT RLIKE ',77,|^77,|,77$|^77$' then 1 else 0 end) as have_no_read FROM messages GROUP BY room_id) as messages2 ON messages2.room_id = rooms.id LEFT JOIN messages ON messages.id = messages2.id WHERE rooms.id in (49,50,52,55) GROUP BY rooms.id, messages.message, rooms.name, have_no_read LIMIT 4
+
+[2022-02-05 10:17:30]select * from `users` where `id` = ? limit 1
+parmars:[77]
+
+[2022-02-05 10:17:30]UPDATE users SET online = 1 WHERE id = 77
+

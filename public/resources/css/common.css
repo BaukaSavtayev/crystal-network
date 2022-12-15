@@ -1,0 +1,27 @@
+a {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid black;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.bottomBtn {
+  padding: 10px;
+}
